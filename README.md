@@ -175,6 +175,8 @@ openspec/
   specs/
 
 README.md
+BACKLOG.md
+CONTRIBUTE.md
 setup.md
 ```
 
@@ -196,6 +198,21 @@ This repo includes specialized development agents:
 3. Break work into tasks.
 4. Implement incrementally.
 5. Validate with QA.
+
+## Backlog-Driven Workflow
+
+This template includes a backlog-first contribution model:
+
+- `BACKLOG.md`: master feature list ordered by dependency
+- `CONTRIBUTE.md`: practical workflow using OpenSpec + agents + skills
+
+Recommended flow:
+
+```text
+BACKLOG.md -> /opsx:propose -> review -> /opsx:apply -> conventional-commit -> update BACKLOG.md
+```
+
+Read [CONTRIBUTE.md](CONTRIBUTE.md) before starting implementation.
 
 ## Design Principles
 
